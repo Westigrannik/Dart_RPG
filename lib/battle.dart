@@ -32,11 +32,11 @@ void battle(Character player, Character enemy) {
 
     printSeparator();
     print('');
-    if (player.isAlive) {
-      print('� ${player.name} победил!');
-    } else {
-      print('� ${enemy.name} победил!');
-    }
-    printSeparator();
   }
+  if (player.isAlive) {
+    print('� ${player.name} победил!');
+  } else {
+    print('� ${enemy.name} победил!');
+  }
+  printSeparator();
 }
